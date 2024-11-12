@@ -20,8 +20,13 @@
     ],
     "paths": {
       "@/*": ["./*"]
-    }
+    },
+    "baseUrl": ".",
+    "forceConsistentCasingInFileNames": true, 
+    "strictNullChecks": true, 
+    "noImplicitAny": true,
+    "noFallthroughCasesInSwitch": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/(shop)/shop/item/[id]"],
   "exclude": ["node_modules"]
 }

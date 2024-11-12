@@ -1,9 +1,8 @@
-
 import type { Metadata } from "next";
-import './globals.css';
+import "./globals.css";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
-import { ThemeProvider } from '@mui/material/styles';
-import theme from '../theme';
+import { ThemeProvider } from "@mui/material/styles";
+import theme from "../theme";
 
 export const metadata: Metadata = {
   title: {
@@ -15,15 +14,13 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="fa" dir="rtl">
       <body>
-        <ThemeProvider theme={theme}>
-          <AppRouterCacheProvider>{children}</AppRouterCacheProvider>
-        </ThemeProvider>
+        {/* <ThemeProvider theme={theme}> */}
+        <AppRouterCacheProvider>{children}</AppRouterCacheProvider>
+        {/* </ThemeProvider> */}
       </body>
     </html>
   );

@@ -1,0 +1,22 @@
+مشکل در استفاده از 
+use client
+همراه با
+metadata ها
+**********
+
+چرا فونت در پوشه src است بعضی اوغات در public ؟
+
+********
+
+mui 
+nextjs  page  router - app router - typescript
+react query
+axios
+swagger
+------------
+
+مشکل در [].tsx
+
+
+
+
