@@ -2,7 +2,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div>test</div>
+    <div>parallel 1 </div>
   )
 }
 
