@@ -1,13 +1,5 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+ --background: #F2ECE3;
 }
 
 html,
@@ -17,7 +9,6 @@ body {
 }
 
 body {
-  color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -35,8 +26,9 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+@font-face {
+  font-family: 'Yekan';
+  src: url('./fonts/IRANYekanXVF.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
