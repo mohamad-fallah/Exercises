@@ -34,3 +34,4 @@ Revalidation
 بازبینی خودکار: برای داده‌هایی که باید در بازه‌های مشخص به‌روز بشن.
 
 
+client componnet / server component
