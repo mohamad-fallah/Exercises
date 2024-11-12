@@ -17,6 +17,15 @@ swagger
 
 مشکل در [].tsx
 
+****
+intersepting  for test 
+
+Request Memoization
+Data Cache
+Full Route Cache
+Client-side Router Cache
+
+Revalidation
 
 
 
