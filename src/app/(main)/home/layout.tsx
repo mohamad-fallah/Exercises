@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
-import Header from "@/src/_components/Header";
+import Header from "@/src/components/Header";
 import type { Metadata } from "next";
 
 interface LayoutProps {

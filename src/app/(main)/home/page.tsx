@@ -1,6 +1,6 @@
 import React from "react";
-import ProfileTable from "@/src/_components/ProfileTable";
-import UpComponent from "@/src/_components/UpComponent";
+import ProfileTable from "@/src/components/ProfileTable";
+import UpComponent from "@/src/components/UpComponent";
 
 function page() {
   return (
